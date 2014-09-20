@@ -1,0 +1,7 @@
+LeapMusicProgram/
+    src/
+        Sample.py
+    lib/
+        Leap.py
+        LeapPython.so
+        libLeap.dylib
