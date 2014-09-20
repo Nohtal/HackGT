@@ -99,6 +99,7 @@ class SampleListener(Leap.Listener):
                     index = frame.fingers[0]
                     index = controller.frame().finger(index.id)
                     print "    Tip position", index.tip_position
+                    print "    xtip position", index.tip_position.x
                     
                 else:
                     print "Invalid"
